@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="God">Jay Shree Ram</h1>
+    <div class="main">
+        <div>
+           <div class="header">Home</div>
+           <div class="header">About</div>
+           <div class="header">SignIn</div>
+           <div class="header"><a href="signup.html" >SignUp</a></div>
+        </div>
+        <div>
+            <div class="content">
+                <p>गायत्री महामंत्र का अर्थ: “ॐ भूर्भुव: स्व: तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो न: प्रचोदयात् ।।”</p>
+                <p>न जायते म्रियते वा कदाचिन्
+                    नायं भूत्वा भविता वा न भूयः।
+                    अजो नित्यः शाश्वतोऽयं पुराणो
+                    न हन्यते हन्यमाने शरीरे॥ २-२०</p>
+                    <p>Hindi Translation
+                        आत्मा किसी काल में भी न जन्मता है और न मरता है और न यह एक बार होकर फिर अभावरूप होने वाला है।
+                        आत्मा अजन्मा, नित्य, शाश्वत और पुरातन है, शरीर के नाश होने पर भी इसका नाश नहीं होता।</p>
+            </div>
+            <div class="content">
+                <img src="ram" height="350px" width="250px"/>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------
+this is css part :-
+
+.main{
+    width: 500px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.header{
+    width: 125px;
+    height: 50px;
+    background-color: blueviolet;
+    float: left;
+    font-size: large;
+    color:white
+}
+.God{
+    width: 500px;
+    height: 50px;
+    background-color: #ff9933;
+    text-align: center;
+}
+.content{
+    width: 250px;
+    height: 350px;
+    background-color: #ff9933;
+    float: left;
+    font-weight: bold;
+}
+a:link{
+    color: green;
+    background-color:transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
