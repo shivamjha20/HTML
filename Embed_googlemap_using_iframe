@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoogleMap</title>
+    <style>
+        .main{
+            width: 1000px;
+            height: 500px;
+        }
+        .row1{
+            width: 1000px;
+            height: 100px;
+            background-color: aqua;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+        }
+        .row2{
+            width: 1000px;
+            height:300px ;
+            
+        }
+        .row3{
+            width: 1000px;
+            height: 100px;
+            background-color:aqua;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row1">Embed GoogleMap using iframe in HTML</div>
+        <div class="row2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13784.793165461806!2d77.04492145!3d30.259930899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679832887578!5m2!1sen!2sin" width="1000px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </div>
+        <div class="row3">To View Full Map Click On View Larger Map</div>
+    </div>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------
