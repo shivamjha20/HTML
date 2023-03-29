@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 200px;
+            flex: left;
+        }
+        .row1{
+            width: 500px;
+            height: 100px;
+            background-color: antiquewhite;
+            flex: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: underline;
+            border-radius: 100px;
+            color: orange;
+        }
+        .row2{
+            width: 500px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100px;
+            background-color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"> 
+          <div class="row1">
+            Create this using Audio tag
+          </div>
+          <div class="row2">
+            <audio controls="">
+            <source src="play.mp3.mp3" type="audio/mp3"/>
+            </audio>
+          </div>
+    </div>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
