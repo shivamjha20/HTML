@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calendar</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>calendar</legend>
+            Date:
+            <input type="date" name="date"/>
+            <br/>
+            <br/>
+            DateTime:
+            <input type="datetime-local" name="datetime"/>
+            <br/>
+            <br/>
+            Time:
+            <input type="time" name="time"/>
+            <br/>
+            <br/>
+            Month:
+            <input type="month" name="month"/>
+            <br/>
+            <br/>
+            Week:
+            <input type="week" name="week"/>
+            <br/>
+            <br/>
+            Range:
+            <input type="range" value="90" name="range"/>
+            <br/>
+            <br/>
+            <input type="submit" name="Submit"/>
+        </fieldset>
+    </form>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
