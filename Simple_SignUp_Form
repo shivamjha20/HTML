@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <style>
+        .f0{
+            width: 500px;
+            height: 155px;
+            text-align: center;
+        }
+        .f1{
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            font-style: italic;
+            
+        }
+        .f2{
+            width:40%;
+            height:40% ;
+            border-radius: 40px;
+             
+        }
+        #signup{
+            border-radius: 40px;
+            
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="f0">
+       <form>
+        <fieldset>
+            <legend>SignUp</legend>
+            <div class="f1">
+              Email:
+              <input class="f2" type="email" name="email" placeholder="Enter your Email"/>
+              <br/>
+              <br/>
+              Password:
+              <input class="f2"type="password" name="password" placeholder="Enter Your Password "/>
+              <br/>
+              <br/>
+            </div>
+            <input id="signup" type="submit" name="SignUp" value="SignUp"/>
+        </fieldset>
+       </form> 
+    </div>
+    
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
