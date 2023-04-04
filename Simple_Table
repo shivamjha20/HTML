@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="8" align="center" cellpadding="" cellspacing="" bgcolor="yellow" width="4"height="200">
+        <thead>       
+           <tr>
+           <th>Book</th>
+           <th>Publisher</th>
+           <th>Price</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+           <td>HTML</td>
+           <td>Shivam Jha</td>
+           <td>&#8377;500/-</td>
+           </tr>
+           <tr>
+            <td>CSS</td>
+            <td>Shubham Jha</td>
+            <td>&#8377;450/-</td>
+           </tr>
+           <tr>
+            <td>Javascript</td>
+            <td>Keshav Jha</td>
+            <td>&#8377;490/-</td>
+           </tr>
+           <tr>
+            <td>PHP</td>
+            <td>Satyam Jha</td>
+            <td>&#8377;550/-</td>
+           </tr>
+           <tr>
+            <td>C++</td>
+            <td>Raj</td>
+            <td>&#8377;350/-</td>
+           </tr>
+           <tr>
+            <td>Java</td>
+            <td>Md Saif Ali</td>
+            <td>&#8377;499/-</td>
+           </tr>
+           <tr>
+            <td>Python</td>
+            <td>Ajay Sharma</td>
+            <td>&#8377;449/-</td>
+           </tr>
+           <tr>
+            <td>MySQL</td>
+            <td>Abhishek Singh</td>
+            <td>&#8377;399/-</td>
+           </tr>
+       </tbody>
+   </table>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
